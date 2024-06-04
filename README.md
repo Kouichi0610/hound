@@ -1,0 +1,9 @@
+SDL2-devel-2.x.x-VC.zip
+をダウンロード
+C:\Users\{USER_NAME}\.rustup\toolchains\{TOOLCHAIN}\lib\rustlib\{TOOLCHAIN}\lib
+フォルダに
+SDL2.dll
+SDL2.lib
+SDL2main.lib
+SDL2test.lib
+を追加
