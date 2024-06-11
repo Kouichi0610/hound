@@ -1,7 +1,7 @@
 // sdl2_foundation
 use std::{fmt::Error, time::Duration};
 use game_canvas::Renderer;
-use game_controller::{self, ControllerUpdator, ControllerResult, ControllerData};
+use game_controller::{self, ControllerUpdator, ControllerResult};
 use sdl2::Sdl;
 use renderer::create_canvas;
 use controller::create_controller_updator;

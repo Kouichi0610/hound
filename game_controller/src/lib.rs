@@ -7,7 +7,7 @@ pub trait ControllerUpdator {
     fn update(&mut self) -> ControllerResult;
 }
 
-#[derive(Debug, Clone, Copy)]
+#[derive(Clone, Copy)]
 pub struct ControllerData {
     pub left_stick_x: i8,
     pub left_stick_y: i8,

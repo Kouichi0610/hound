@@ -1,5 +1,4 @@
 use sdl2::event::Event;
-use sdl2::mouse::MouseWheelDirection;
 use sdl2::controller::Axis;
 use sdl2::sys::{SDL_Init, SDL_INIT_JOYSTICK, SDL_INIT_GAMECONTROLLER, SDL_INIT_HAPTIC, SDL_GameControllerOpen};
 use sdl2::Sdl;
