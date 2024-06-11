@@ -1,0 +1,8 @@
+[package]
+name = "game_engine_factory"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+game_canvas = { path = "../game_canvas" }
+game_controller = { path = "../game_controller" }

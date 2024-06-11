@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 sample = { path = "../sample" }
+sdl2_foundation = { path = "../sdl2_foundation" }

@@ -1,6 +1,10 @@
 [workspace]
 members = [
     "entry",
+    "game_engine_factory",
+    "game_canvas",
+    "game_controller",
     "sample",
+    "sdl2_foundation",
 ]
 resolver = "2"

@@ -19,6 +19,23 @@ name = "entry"
 version = "0.1.0"
 dependencies = [
  "sample",
+ "sdl2_foundation",
+]
+
+[[package]]
+name = "game_canvas"
+version = "0.1.0"
+
+[[package]]
+name = "game_controller"
+version = "0.1.0"
+
+[[package]]
+name = "game_engine_factory"
+version = "0.1.0"
+dependencies = [
+ "game_canvas",
+ "game_controller",
 ]
 
 [[package]]
@@ -61,6 +78,16 @@ dependencies = [
  "cfg-if",
  "libc",
  "version-compare",
+]
+
+[[package]]
+name = "sdl2_foundation"
+version = "0.1.0"
+dependencies = [
+ "game_canvas",
+ "game_controller",
+ "game_engine_factory",
+ "sdl2",
 ]
 
 [[package]]

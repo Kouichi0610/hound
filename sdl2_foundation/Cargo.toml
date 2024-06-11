@@ -1,0 +1,10 @@
+[package]
+name = "sdl2_foundation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sdl2 = "0.36.0"
+game_canvas = { path = "../game_canvas" }
+game_controller = { path = "../game_controller" }
+game_engine_factory = { path = "../game_engine_factory" }
